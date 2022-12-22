@@ -1,0 +1,170 @@
+:root {
+    --button-background: #00A6A6;
+    --button-hover: #9AD4D6;
+    --body-background: #BBDEF0;
+    --achievement-background: #F2FDFF;
+    --white: #ffffff;
+    --black: #000000;
+}
+
+body {
+    background: var(--body-background);
+}
+
+.site-title {
+    text-align: center;
+    font-family: 'Poppins';
+    font-weight: 500;
+    font-size: 70px;
+}
+
+.main {
+    display: flex;
+    justify-content: center;
+    margin-top: 15vh;
+    margin-bottom: 5vh;
+}
+
+.main__button {
+    width: 85px;
+    height: 85px;
+    text-decoration: none;
+    font-size: 35px;
+    font-style: 'Poppins';
+    color: var(--white);
+    border: none;
+    background: var(--button-background);
+}
+
+.main__button:hover {
+    background-color: var(--button-hover);
+    color: var(--black);
+}
+
+.main__box {
+    width: 30vw;
+    height: 78px;
+    text-align: center;
+    margin: 0 2vw;
+    border: none;
+    font-size: 35px;
+    font-style: 'Poppins';
+}
+
+.multiplicators {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 5vh;
+}
+
+.multiplicators__button {
+    width: 45vw;
+    height: 50px;
+    margin: 0 2%;
+    font-family: 'Poppins';
+    font-weight: 200;
+    border: none;
+    background: var(--button-background);
+    color: var(--white);
+}
+
+.multiplicators__button:hover {
+    background-color: var(--button-hover);
+    color: var(--black);
+}
+
+.title_achievement {
+    text-align: center;
+    font-family: 'Poppins';
+    font-weight: 500;
+}
+
+.achievement {
+    display: none;
+    margin: 15px auto;
+    width: 45vw;
+    padding: 15px;
+    background: var(--achievement-background);
+}
+
+.achievement__text {
+    font-family: 'Poppins';
+    font-weight: 200;
+    font-style: italic;
+}
+
+.achievement2 {
+    display: none;
+    margin: 15px auto;
+    width: 45vw;
+    padding: 15px;
+    background: var(--achievement-background);
+}
+
+.achievement3 {
+    display: none;
+    margin: 15px auto;
+    width: 45vw;
+    padding: 15px;
+    background: var(--achievement-background);
+}
+
+.achievement4 {
+    display: none;
+    margin: 15px auto;
+    width: 45vw;
+    padding: 15px;
+    background: var(--achievement-background);
+}
+
+.achievement5 {
+    display: none;
+    margin: 15px auto;
+    width: 45vw;
+    padding: 15px;
+    background: var(--achievement-background);
+}
+
+.achievement6 {
+    display: none;
+    margin: 15px auto;
+    width: 45vw;
+    padding: 15px;
+    background: var(--achievement-background);
+}
+
+.achievement7 {
+    display: none;
+    margin: 15px auto;
+    width: 45vw;
+    padding: 15px;
+    background: var(--achievement-background);
+}
+
+.achievement8 {
+    display: none;
+    margin: 15px auto;
+    width: 45vw;
+    padding: 15px;
+    background: var(--achievement-background);
+}
+
+.achievement9 {
+    display: none;
+    margin: 15px auto;
+    width: 45vw;
+    padding: 15px;
+    background: var(--achievement-background);
+}
+
+.achievement__img {
+    width: 80px;
+    height: 80px;
+}
+
+.achievement__text {
+    display: flex;
+    align-items: center;
+    margin: 20px;
+    font-size: 25px;
+}
